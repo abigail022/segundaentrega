@@ -74,5 +74,12 @@ header {
 }
 // se puede separar la pagina en tres partes diferentes 1 footer 1 header 1 main//
 
-  
+  .m-pago {
+	text-align: center; 
+	ul {
+		li{
+			list-style: none;
+		}
+	}
+  }
   

@@ -63,6 +63,11 @@ header {
   flex-direction: column;
   text-align: center; }
 
+.m-pago {
+  text-align: center; }
+  .m-pago ul li {
+    list-style: none; }
+
 @media (min-width: 320px) {
   .card {
     display: flex;
