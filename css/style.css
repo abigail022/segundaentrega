@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c0c0b0;
+  color: #1e2020; }
+  .header nav {
+    width: 70%; }
+  .header ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none; }
+    .header ul li a {
+      color: white;
+      font-size: 20px;
+      font-weight: 200px;
+      text-decoration: none; }
+
+body {
+  background-color: #949c9c;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/021/995/835/non_2x/stylish-minimalistic-gray-composition-with-design-vases-illustration-ai-generative-free-photo.jpg);
+  opacity: 0.90; }
+
+footer {
+  height: 150px; }
+
+@font-face {
+  font-family: letra;
+  src: url(../assets/fonts/letra.ttf); }
+
+@font-face {
+  font-family: roboto;
+  src: url(../assets/fonts/Roboto.ttf); }
+
+header {
+  font-family: letra; }
+
+.imagen {
+  width: 20%;
+  height: auto; }
+
+.roboto {
+  font-family: roboto; }
+
+.color-h2, .color-p {
+  color: white;
+  padding: 20px; }
+
+.text-color {
+  color: gray; }
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+@media (min-width: 320px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    gap: 20px; } }
+
+@media (min-width: 768px) {
+  .card {
+    width: 100%; } }
+
+@media (min-width: 992px) {
+  .card {
+    width: 100%; } }
