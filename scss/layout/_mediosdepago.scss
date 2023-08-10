@@ -1,0 +1,15 @@
+.m-pago {
+    h3 {
+        color:$color-text ;
+
+    }
+    .img-pago {
+        img {
+            width: 150px;
+        }
+    }
+    p {
+    
+        @extend h3; 
+    }
+}

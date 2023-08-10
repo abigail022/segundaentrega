@@ -88,6 +88,15 @@ header {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
 
+.p {
+  color: white; }
+
+.m-pago h3, .m-pago p {
+  color: white; }
+
+.m-pago .img-pago img {
+  width: 150px; }
+
 @media (min-width: 320px) {
   .card {
     display: flex;
