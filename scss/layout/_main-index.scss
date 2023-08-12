@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: 0;
 }
+
 .header {
 	display: flex;
 	flex-direction: row-reverse;
@@ -30,10 +31,9 @@ body {
 	background-color: rgb(148, 156, 156);
 	background-image: url(https://static.vecteezy.com/system/resources/previews/021/995/835/non_2x/stylish-minimalistic-gray-composition-with-design-vases-illustration-ai-generative-free-photo.jpg);
 	opacity: 0.90;
+	min-height: calc(100vh -(256+150));
 }
-footer {
-	height: 150px;
-}
+
 @font-face {
 	font-family: letra ;
 	src: url(../assets/fonts/letra.ttf);
@@ -107,6 +107,3 @@ header {
 			  transform: rotate(360deg);
 	}
   }
-.p{
-color: white;
-}
