@@ -113,7 +113,8 @@ footer {
 
 .consulta {
   text-align: center;
-  color: white; }
+  color: white;
+  margin: 10px 0; }
 
 form {
   display: flex;
