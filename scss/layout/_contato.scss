@@ -1,0 +1,22 @@
+.consulta {
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+form { 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+ 
+    input {
+        border-radius: 5px;
+    }
+
+    textarea {
+        width: 400px;
+        height: 200px;
+        border-radius: 10px;
+    }
+}
