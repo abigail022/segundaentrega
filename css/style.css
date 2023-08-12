@@ -25,7 +25,7 @@
 
 body {
   background-color: #949c9c;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/021/995/835/non_2x/stylish-minimalistic-gray-composition-with-design-vases-illustration-ai-generative-free-photo.jpg);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/021/995/835/non_2x/stylish-minimalistic-gray-composition-with-design-vases-illustration-ai-generative-free-photo.jpg");
   opacity: 0.90;
   min-height: calc(100vh -(256+150)); }
 
@@ -65,6 +65,16 @@ header {
   text-align: center; }
   .m-pago ul li {
     list-style: none; }
+
+.img-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 300px;
+  margin: 40px auto;
+  height: 300px; }
 
 .rotate-center {
   -webkit-animation: rotate-center 0.6s ease-in-out both;
@@ -135,13 +145,20 @@ form {
     justify-content: none;
     gap: 20px; }
   .articulos p {
-    width: 300px; } }
+    width: 300px; }
+  .img-index {
+    flex-direction: column;
+    margin-top: 80px;
+    width: 150px; } }
 
 @media (min-width: 768px) {
   .card {
     width: 100%; }
   .articulos p {
-    width: 600px; } }
+    width: 600px; }
+  .img-index {
+    flex-direction: row;
+    width: 200px; } }
 
 @media (min-width: 992px) {
   .card {
